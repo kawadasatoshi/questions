@@ -1,0 +1,6 @@
+{
+    "error_message": "Zero Division Error",
+    "code": "def sitemap(request):\r\n    the_json = addContentManager.myJson.jsondict\r\n    page_list = []\r\n    for category_name, category_dict in the_json.items():\r\n        for page_dict in category_dict[\"page_list\"]:\r\n            yahoo_id = page_dict[\"yahoo_id\"]\r\n            url = f\"http://question.short-tips.info/{category_name}/{yahoo_id}\"\r\n            page_list.append(url)\r\n    \r\n    dt_now = datetime.datetime.now()\r\n    params = {}\r\n    params.update({\r\n        \"page_list\" : page_list,\r\n        \"last_mod\"  :f\"{dt_now.strftime('%Y')}-{dt_now.strftime('%m')}-{dt_now.strftime('%d')}T00:00:00+00:00\" #\"2021-07-30T13:25:37+00:00\"\r\n    })\r\n    return render(request, \"question/sitemap.xml\", params)\r\n            ",
+    "supplement": "わからない...",
+    "question_id": "101618"
+}
