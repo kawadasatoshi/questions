@@ -1,0 +1,6 @@
+{
+    "error_message": "Cannot connect to the Docker daemon. Is the docker daemon running?\r\n",
+    "code": "docker compose up",
+    "supplement": "コマンドを実行しても立ち上がりません。\r\n",
+    "question_id": "101631"
+}
