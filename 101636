@@ -1,0 +1,6 @@
+{
+    "error_message": "IncompleteRead(128834 bytes read)",
+    "code": "    url = \"https://github.com/kawadasatoshi/\" + repo \r\n    if folder is None:\r\n        url = \"https://github.com/kawadasatoshi/\" + repo \r\n    else:\r\n        url = f\"https://github.com/kawadasatoshi/{repo}/tree/main/{folder}\"\r\n    time.sleep(1)\r\n    html = urlopen(url)\r\n    bsObj = BeautifulSoup(html) …\r\n    file_list = []\r\n    flag = False\r\n    for row in bsObj.findAll(\"div\", attrs={\"role\": \"rowheader\"}):\r\n        for a_tag in row.findAll( \"a\",attrs={\"data-pjax\": \"#repo-content-pjax-container\"}):\r\n            if a_tag.has_key('title'):\r\n                file_list.append(a_tag.get_text())",
+    "supplement": "ソースの読み込みが途中で終了してしまいま。\r\nどうすればいいですか？",
+    "question_id": "101636"
+}
