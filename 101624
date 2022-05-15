@@ -1,0 +1,6 @@
+{
+    "error_message": "Error response from daemon: conflict: unable to remove repository reference \"nginx\" (must force) - container 1ea55b6d3589 is using its referenced image 4f380adfc10f\r\n",
+    "code": "docker rmi nginx",
+    "supplement": "nginxが動きません",
+    "question_id": "101624"
+}
