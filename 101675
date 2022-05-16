@@ -1,0 +1,6 @@
+{
+    "error_message": "Oracleに接続されていません。 \r\nDBMS_OUTPUTの出力処理中にエラーが発生しました([row:1,col:1] ORA-03114: Oracleに接続されていません。",
+    "code": "",
+    "supplement": "Osqleditのログイン直後にこのようなエラーが出るようになりました。\r\nなぜでしょう...",
+    "question_id": "101675"
+}
