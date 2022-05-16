@@ -1,0 +1,6 @@
+{
+    "error_message": "ORA-03114: Oracleに接続されていません。",
+    "code": "",
+    "supplement": "Osqleditでのエラーです。\r\noracleを使っているのですが...\r\ntnsが間違えているのでしょうか？\r\n",
+    "question_id": "101673"
+}
