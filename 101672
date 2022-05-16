@@ -1,0 +1,6 @@
+{
+    "error_message": "django.db.utils.OperationalError: FATAL: the database system is starting up",
+    "code": "",
+    "supplement": "docker + python + djangoでのエラーです。\r\npostgreのsqlを使っているみたいなのですが...",
+    "question_id": "101672"
+}
