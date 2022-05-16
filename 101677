@@ -1,0 +1,6 @@
+{
+    "error_message": "error during connect: In the default daemon configuration on Windows, the docker client must be run with elevated privileges to connect.: Get \"http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.project%3Dapp%22%3Atrue%7D%7D&limit=0\": open //./pipe/docker_engine: The system cannot find the file specified.",
+    "code": "docker compose up",
+    "supplement": "上記のコマンドを実行した直後にこれです。\r\n何が間違えているのでしょうか...",
+    "question_id": "101677"
+}
