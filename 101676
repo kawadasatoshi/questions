@@ -1,0 +1,6 @@
+{
+    "error_message": "File \"/usr/local/lib/python3.10/site-packages/psycopg2/__init__.py\", line 122, in connect dashboard-web | conn = _connect(dsn, connection_factory=connection_factory, **kwasync) dashboard-web | django.db.utils.OperationalError: FATAL: the database system is starting up",
+    "code": "",
+    "supplement": "django + docker + pythonでのエラーです。\r\ndocker compose upをした直後にこのようなエラーが出ます.\r\n",
+    "question_id": "101676"
+}
