@@ -1,0 +1,6 @@
+{
+    "error_message": "ERROR: Could not find a version that satisfies the requirement PIL (from versions: none)\r\nERROR: No matching distribution found for PIL\r\nWARNING: You are using pip version 22.0.4; however, version 22.1 is available.\r\nYou should consider upgrading via the '/usr/local/bin/python -m pip install --upgrade pip' command.",
+    "code": "pip install PIL",
+    "supplement": "",
+    "question_id": "101750"
+}
