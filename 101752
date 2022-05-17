@@ -1,0 +1,6 @@
+{
+    "error_message": "OSError at /api/ogp/\r\ncannot open resource",
+    "code": "    text = insert_return(text)\r\n    \r\n    # イメージデータを初期化\r\n    im = Image.new(\"RGB\", (STRIP_WIDTH, STRIP_HEIGHT), \"#F4A7B9\")\r\n    draw = ImageDraw.Draw(im)\r\n    # フォントを読み込む\r\n    font = ImageFont.truetype(FILE_FONT, 90) …\r\n    # フォントの高さを計算する\r\n    text_width, text_height = draw.textsize(text, font)\r\n    # フォントの出力位置（画像の概ね真ん中）を計算する\r\n    position = ((STRIP_WIDTH - text_width) / 2, (STRIP_HEIGHT - text_height) / 2 - 50)\r\n    # 元画像にテキストを合成\r\n    draw.text(position, text, font=font)",
+    "supplement": "動かないです...",
+    "question_id": "101752"
+}
