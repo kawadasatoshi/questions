@@ -1,0 +1,6 @@
+{
+    "error_message": "Uncaught TypeError: 0 is not a function at r.escapeDuplication",
+    "code": "const TableCollection = Backbone.Collection.extend({ \r\n    model: PanelModel, \r\n    search : function(query){ \r\n        this.where({sender: fName}) \r\n    }, \r\n    setIdentifier: function(){ \r\n        var count = 0 \r\n        this.each(function(row, index) { \r\n            row.set(\"idAttribute\", \"panel-\" + count) count += 1 \r\n        }) \r\n    },",
+    "supplement": "count周りでエラーが出てしまいます。\r\nbackbone.js javascriptを使用です。",
+    "question_id": "102752"
+}
