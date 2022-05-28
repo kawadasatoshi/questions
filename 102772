@@ -1,0 +1,6 @@
+{
+    "error_message": "ou currently have Essential access which includes access to Twitter API v2 endpoints only. If you need access to this endpoint, you’ll need to apply for Elevated access via the Developer Portal. You can learn more here: https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#v2-access-lev",
+    "code": "\r\nimport tweepy\r\n\r\nAPI_Key     = SE_MAINTAIN_KEYS[\"consumer_key\"]\r\nAPI_Sec     = SE_MAINTAIN_KEYS[\"consumer_secret\"]\r\nToken       = SE_MAINTAIN_KEYS[\"access_token\"]\r\nToken_Sec   = SE_MAINTAIN_KEYS[\"access_secret\"]\r\n\r\n# Twitterオブジェクトの生成\r\nauth = tweepy.OAuthHandler(API_Key, API_Sec)\r\nauth.set_access_token(Token, Token_Sec)\r\napi = tweepy.API(auth)\r\n#日本のWOEID\r\nwoeid = 23424856\r\n#トレンド一覧取得\r\ntrends = api.get_place_trends(woeid)\r\nprint(trends)\r\n",
+    "supplement": "",
+    "question_id": "102772"
+}
