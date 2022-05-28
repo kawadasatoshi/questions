@@ -1,0 +1,6 @@
+{
+    "error_message": "    write_html(f\"/Users/minegishirei/myworking/oversea_it/test/{now}.html\",html_text)\r\n                                                                         ^\r\nSyntaxError: invalid syntax\r\n",
+    "code": "\r\ndef createfile(article_list):\r\n    html_text = build_html_text(article_list)\r\n    dt_now = datetime.datetime.now()\r\n    now = dt_now.strftime('%Y%m%d%H%M')\r\n    write_html(f\"/Users/minegishirei/myworking/oversea_it/test/{now}.html\",html_text)\r\n",
+    "supplement": "",
+    "question_id": "102774"
+}
