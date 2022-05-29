@@ -1,0 +1,6 @@
+{
+    "error_message": "The view oversea_it.views.index didn't return an HttpResponse object. It returned None instead.",
+    "code": "def index(request):\r\n    global page_dict\r\n    global pop_page_list\r\n    if request.GET.get(\"selector\"):\r\n        return editor(request)\r\n    if request.GET.get(\"reload\"):\r\n        page_dict = genPageDict()\r\n        pop_page_list = getMetaInfo()\r\n\r\n\r\ndef editor(request):\r\n    pass\r\n",
+    "supplement": "",
+    "question_id": "102845"
+}
