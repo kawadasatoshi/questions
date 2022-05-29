@@ -1,0 +1,6 @@
+{
+    "error_message": "context must be a dict rather than list.",
+    "code": "def page(request, page_id):\r\n    params = {}\r\n    ## 2st. find page\r\n    params = get_questions(page_id + \".json\")\r\n    return render(request, \"oversea_it/base/page_v2.html\", params)\r\n",
+    "supplement": "",
+    "question_id": "102847"
+}
