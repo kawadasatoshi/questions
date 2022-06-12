@@ -1,0 +1,6 @@
+{
+    "error_message": "【Javascript】エラー「Blocked a frame with origin \"null\" from accessing a cross-origin frame.」",
+    "code": "@xframe_options_exempt\r\ndef page(request, htmlname):\r\n    if htmlname==\"about.html\":\r\n        return about(request)\r\n    if \"reload\" in request.GET:\r\n        Github.delete_page(repo, htmlname)\r\n    try:\r\n        upload_network_json(htmlname)\r\n    except Twitter.MyTwitterException:\r\n        return render(request, \"fanstatic/dashboard/twitter_network_busy.html\", params)\r\n    params = {\r\n        \"information_page_link\" :information_page_link,\r\n        \"acount_name\" : htmlname,\r\n        \"title\" : htmlname + \" \" +title,\r\n        \"repo\":repo,\r\n        \"favicon\" : favicon,\r\n        \"description\" : description,\r\n        \"img\" : img\r\n    }\r\n    return render(request, \"fanstatic/dashboard/twitter_network.html\", params)",
+    "supplement": "Javascriptで発生したエラーです。\r\niframeで埋め込んだd3.jsのプログラムが動きません。\r\nサーバーはDjangoですが、どうすれば治りますか？",
+    "question_id": "105879"
+}
