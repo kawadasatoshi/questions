@@ -1,0 +1,6 @@
+{
+    "error_message": "error during connect: This error may indicate that the docker daemon is not running.: Get \"http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.project%3Dtrunk%22%3Atrue%7D%7D&limit=0\": open //./pipe/docker_engine: Access is denied.",
+    "code": "",
+    "supplement": "権限周りでつまづいてそうですが...\r\ndockerエンジンがwindowsで動かないです。",
+    "question_id": "108131"
+}
